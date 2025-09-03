@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns:[new URL('https:fakestoreapi.com/**')]
   },
-  eslint:{
-    ignoreDuringBuilds:true
+  eslint: {
+    ignoreDuringBuilds: true,
   }
 };
 
